@@ -97,8 +97,21 @@ var name []T
 
 # Exercise
 
+"abcdef" -> []string{"abc","def"}
+"abcdefg" -> []string{"abc","def","g**"}
+
+---
+
+# Exercise
+
 https://tour.golang.org/moretypes/18 https://tour.golang.org/moretypes/18
 https://go-tour-th.appspot.com/moretypes/18 https://go-tour-th.appspot.com/moretypes/18
+
+---
+
+# Variadic function
+
+func variadic(nums ...int)
 
 ---
 
@@ -323,6 +336,11 @@ response:
 
 ---
 
+# Exercise
+
+Random 4 number pass to FizzBuzz and test it
+
+---
 # Exercise
 
 Captcha: (pattern,leftOperand,operator,rightOperand)
